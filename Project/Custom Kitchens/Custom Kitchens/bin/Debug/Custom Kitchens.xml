@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Custom Kitchens
+</name>
+</assembly>
+<members>
+<member name="T:Custom_Kitchens.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Custom_Kitchens.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Custom_Kitchens.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Custom_Kitchens.Form1.btnProceed_Click(System.Object,System.EventArgs)">
+when select kitchen button is pressed the following sub handles the event
+the program checks if any of the given countertops is selected 
+and records the price of the selected item
+the routine also handles no input with an error message
+</member>
+<member name="M:Custom_Kitchens.Form1.refreshPrice">
+ <summary>
+ this sub refreshes the price whenever the Purchase button is pressed
+ it adds the prices of all selected appliances 
+ it also ensures the user selects an option between shipping and installation
+ it handles this with an error message
+ </summary>
+</member>
+<member name="M:Custom_Kitchens.Form1.btnProceed1_Click(System.Object,System.EventArgs)">
+ <summary>
+ te last sub that runs when proceed button is clicked
+ it hides the current form and takes the user to another form
+ </summary>
+</member>
+<member name="M:Custom_Kitchens.Form2.checkEmptyFields">
+ <summary>
+ creating a function that verifies all inputs have no blanks 
+ and verifies and validates all numeric inputs
+ </summary>
+ <returns></returns>
+</member>
+</members>
+</doc>
